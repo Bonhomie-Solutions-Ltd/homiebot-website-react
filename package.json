@@ -8,17 +8,17 @@
     "@emotion/core": "^10.0.7",
     "@emotion/styled": "^10.0.7",
     "next": ">=9.3.2",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react": ">=16.8.4",
+    "react-dom": ">=16.8.4",
+    "typeface-roboto": "^1.1.13"
   },
-  "name": "next-tutorial",
-  "version": "1.0.0",
-  "description": "Next.js and React Tabs tutorial",
+  "name": "homiebot-website-react",
+  "version": "0.0.1",
+  "description": "The official HomieBot site",
   "main": "pages/index.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ugonnathelma/next-js-react-tabs-tutorial.git"
+    "url": "git+https://github.com/Bonhomie-Solutions-Ltd/homiebot-website-react"
   },
   "keywords": [
     "next.js",
@@ -26,10 +26,13 @@
     "emotionjs",
     "styled-components"
   ],
-  "author": "Ugonna Thelma",
-  "license": "MIT",
+  "author": "Owais Shaikh and Stephen Duke",
+  "license": "EULA",
   "bugs": {
-    "url": "https://github.com/ugonnathelma/next-js-react-tabs-tutorial/issues"
+    "url": "https://github.com/Bonhomie-Solutions-Ltd/homiebot-website-react/issues"
   },
-  "homepage": "https://github.com/ugonnathelma/next-js-react-tabs-tutorial#readme"
+  "homepage": "https://homiebot.org.uk",
+  "devDependencies": {
+    "@svgr/webpack": "^5.5.0"
+  }
 }
