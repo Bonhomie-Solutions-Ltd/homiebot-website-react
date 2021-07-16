@@ -1,12 +1,13 @@
 import React from "react"
 import Layout from "../layouts"
 import { Tab } from "../styles"
+import { ChakraProvider } from "@chakra-ui/react"
 
 const Home = props => {
   return (
-    <Layout>
-      <Tab />
-    </Layout>
+    <ChakraProvider>
+      <Layout />
+    </ChakraProvider>
   )
 }
 

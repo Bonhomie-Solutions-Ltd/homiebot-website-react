@@ -5,11 +5,17 @@
     "start": "next start"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^1.0.14",
+    "@chakra-ui/react": "^1.6.5",
     "@emotion/core": "^10.0.7",
-    "@emotion/styled": "^10.0.7",
+    "@emotion/react": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "framer-motion": "^4.1.17",
     "next": ">=9.3.2",
+    "next-images": "^1.8.1",
     "react": ">=16.8.4",
     "react-dom": ">=16.8.4",
+    "react-svg": "^14.0.4",
     "typeface-roboto": "^1.1.13"
   },
   "name": "homiebot-website-react",
@@ -33,6 +39,8 @@
   },
   "homepage": "https://homiebot.org.uk",
   "devDependencies": {
-    "@svgr/webpack": "^5.5.0"
+    "@svgr/webpack": "^5.5.0",
+    "file-loader": "^6.2.0",
+    "react-svg-loader": "^3.0.3"
   }
 }
